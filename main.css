@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header nav {
+    padding: 32px 32px;
+    min-height: 80px;
+    background: #1f1f1f;
+}
+
+nav > a {
+    vertical-align: bottom;
+}
+
+nav img {
+    max-height: 48px;
+    background-color: white;
+}
+
+nav ul,
+nav ul li,
+.spacer {
+    display: inline-block;
+}
+
+.spacer {
+    /* Parent width - Logo width - Menu <ul> width */
+    width: calc(100% - 160px - 276px);
+}
+
+nav ul {
+    margin-bottom: 15px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li:last-child {
+    margin-right: 0px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: rgb(82, 134, 255);
+}
+
+nav ul li a:hover {
+    color: rgb(229, 145, 0);
+}
+
+nav ul li a:active {
+    color: rgb(92, 229, 0);
+}
+
+#current-page {
+    color: aquamarine;
+}
+
+main {
+    padding: 20px;
+    min-height: calc(200vh - 60px - 100px);
+}
+
+.servicesMain {
+    width: 80%;
+    display: inline-block;
+}
+
+.servicesAside {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(20% - 5.1px);
+    background-color: #3d3d3d;
+    min-height: calc(200vh - 60px - 100px);
+    padding: 20px;
+}
+
+.servicesAside h2 {
+    text-align: center;
+    color: gainsboro;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.servicesAside li,
+.servicesAside nav {
+    display: block;
+    text-align: center;
+}
+
+.servicesAside li {
+    margin-bottom: 15px;
+}
+
+.backBtn {
+    background-color: rgb(82, 134, 255);
+    color: black;
+    padding: 10px;
+    position: fixed;
+    display: inline-block;
+    top: 90%;
+    left: 95%;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+
+    /*Vertical aligment*/
+    line-height: 40px;
+}
+
+footer {
+    background-color: #1f1f1f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer nav {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    display: inline-block;
+    color: blue;
+}
+
+footer div {
+    margin-top: 10px;
+}
