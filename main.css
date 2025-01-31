@@ -68,6 +68,22 @@ main {
     min-height: calc(200vh - 60px - 100px);
 }
 
+main h1 {
+    margin-bottom: 10px;
+}
+
+main p {
+    margin-bottom: 10px;
+}
+
+main .sticky {
+    background-color: yellow;
+    width: fit-content;
+    padding: 20px;
+    position: sticky;
+    top: 40px;
+}
+
 .servicesMain {
     width: 80%;
     display: inline-block;
@@ -111,9 +127,11 @@ main {
     width: 60px;
     height: 60px;
     text-align: center;
+    font-weight: 600;
 
     /*Vertical aligment*/
     line-height: 40px;
+    vertical-align: middle;
 }
 
 footer {
