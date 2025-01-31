@@ -8,6 +8,10 @@
         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header nav {
     padding: 32px 32px;
     min-height: 80px;
